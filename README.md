@@ -4,7 +4,7 @@ An experimental Safe fallbackHandler to add the `did:dis` DID prototype.
 
 **Why?**
 
-The `did:pkh` DID standard isn't scalable, because you can't update the underlying DID document. It's static. And that's bad because you're stuck with one signing/verifying key.
+The `did:pkh` DID standard isn't scalable, because you can't update the underlying DID document. It's static. And that's bad because you're stuck with one signing/verifying key. Very (very) bad UX in the land of Web3.
 
 The proposed `did:dis` DID standard overcomes these limits, while minimizing the cost of generation. Using EIP-3886 the smart contract can communicate with an offchain service, which hosts the DID document and thus not requiring any onchain transactions to update.
 
