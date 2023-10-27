@@ -1,12 +1,15 @@
 # Safe Decentralized Identity System
 
-An experimental Safe fallbackHandler to add the `did:dis` DID prototype.
+An experimental fallbackHandler to add the `did:dis` DID prototype to [Safe Smart Wallets](https://safe.global/).
 
 **Why?**
 
 The `did:pkh` DID standard isn't scalable, because you can't update the underlying DID document. It's static. And that's bad because you're stuck with one signing/verifying key. Very (very) bad UX in the land of Web3.
 
 The proposed `did:dis` DID standard overcomes these limits, while minimizing the cost of generation. Using EIP-3886 the smart contract can communicate with an offchain service, which hosts the DID document and thus not requiring any onchain transactions to update.
+
+<img width="3906" alt="overview" src="https://github.com/decentralized-identity-system/safe-did-dis/assets/3408362/0e467a87-7e03-4ed0-aa0f-9498558a73d9">
+
 
 ## Usage
 
